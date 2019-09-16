@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C0CFAD9D2DEEA7989F8BA0F /* Pods_Special_shadow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005F37BDD60DA51C14FD6345 /* Pods_Special_shadow.framework */; };
+		B72A6F63232F8BAC0046FD73 /* MDScoreDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = B72A6F62232F8BAC0046FD73 /* MDScoreDropView.m */; };
 		B77A4DE122E71A2400C9A638 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A4DE022E71A2400C9A638 /* AppDelegate.m */; };
 		B77A4DE422E71A2400C9A638 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A4DE322E71A2400C9A638 /* ViewController.m */; };
 		B77A4DE722E71A2400C9A638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77A4DE522E71A2400C9A638 /* Main.storyboard */; };
@@ -23,6 +24,8 @@
 		005F37BDD60DA51C14FD6345 /* Pods_Special_shadow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Special_shadow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3268133C16CD6E00161E656B /* Pods-Special-shadow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Special-shadow.release.xcconfig"; path = "Target Support Files/Pods-Special-shadow/Pods-Special-shadow.release.xcconfig"; sourceTree = "<group>"; };
 		A8304E8C5270D570BEBE94BC /* Pods-Special-shadow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Special-shadow.debug.xcconfig"; path = "Target Support Files/Pods-Special-shadow/Pods-Special-shadow.debug.xcconfig"; sourceTree = "<group>"; };
+		B72A6F61232F8BAC0046FD73 /* MDScoreDropView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDScoreDropView.h; sourceTree = "<group>"; };
+		B72A6F62232F8BAC0046FD73 /* MDScoreDropView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDScoreDropView.m; sourceTree = "<group>"; };
 		B77A4DDC22E71A2400C9A638 /* Special-shadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Special-shadow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77A4DDF22E71A2400C9A638 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B77A4DE022E71A2400C9A638 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				B77A4DE022E71A2400C9A638 /* AppDelegate.m */,
 				B77A4DE222E71A2400C9A638 /* ViewController.h */,
 				B77A4DE322E71A2400C9A638 /* ViewController.m */,
+				B72A6F61232F8BAC0046FD73 /* MDScoreDropView.h */,
+				B72A6F62232F8BAC0046FD73 /* MDScoreDropView.m */,
 				B77A4DFE22E71A6E00C9A638 /* Category */,
 				B77A4DF622E71A3800C9A638 /* MDMeDataScoreView.h */,
 				B77A4DF522E71A3800C9A638 /* MDMeDataScoreView.m */,
@@ -236,6 +241,7 @@
 			files = (
 				B77A4DE422E71A2400C9A638 /* ViewController.m in Sources */,
 				B77A4DEF22E71A2600C9A638 /* main.m in Sources */,
+				B72A6F63232F8BAC0046FD73 /* MDScoreDropView.m in Sources */,
 				B77A4DF722E71A3800C9A638 /* MDMeDataScoreView.m in Sources */,
 				B77A4DE122E71A2400C9A638 /* AppDelegate.m in Sources */,
 				B77A4DFA22E71A5900C9A638 /* UIView+Additional.m in Sources */,

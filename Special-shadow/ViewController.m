@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MDMeDataScoreView.h"
+#import "MDScoreDropView.h"
 @interface ViewController ()
 
 @end
@@ -21,8 +22,14 @@
     
     MDMeDataScoreView *scoreView = [[MDMeDataScoreView alloc]initWithFrame:CGRectMake(15, 9, kScreenWidth-30, 125)];
     [view addSubview:scoreView];
-    // Do any additional setup after loading the view.
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(clickAction)];
+    [scoreView addGestureRecognizer:tap];
 }
 
+-(void)clickAction {
+    MDScoreDropView *dropView = [[MDScoreDropView alloc]initWithFrame:CGRectMake(0, 134, kScreenWidth, kScreenHeight - 134) adds:[NSMutableArray arrayWithObjects:@"购买积分商品", nil] downs:[NSMutableArray arrayWithObjects:@"全部奖励",@"行车安全",@"养修安行", nil]];
+    [self.view addSubview:dropView];
+}
 
 @end
